@@ -3,7 +3,7 @@
   "chain": "Solana",
   "network": "devnet",
   "rpc": [
-    "http://proxy.devnet.neonlabs.org/solana"
+    "https://proxy.devnet.neonlabs.org/solana"
   ],
   "faucets": [
     "https://neonswap.live/#/get-tokens" 

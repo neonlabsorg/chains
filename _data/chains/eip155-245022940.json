@@ -3,7 +3,7 @@
   "chain": "Solana",
   "network": "testnet",
   "rpc": [
-    "http://proxy.testnet.neonlabs.org/solana"
+    "https://proxy.testnet.neonlabs.org/solana"
   ],
   "faucets": [],
   "nativeCurrency": {
