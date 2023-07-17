@@ -2300,6 +2300,19 @@
   "faucets": ["https://myhpbwallet.com/"],
   "infoURL": "https://hpb.io"
 }, {
+  "name": "EgonCoin Mainnet",
+  "chainId": 271,
+  "shortName": "EGONm",
+  "networkId": 271,
+  "nativeCurrency": {
+    "name": "EgonCoin",
+    "symbol": "EGON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.egcscan.com"],
+  "faucets": ["https://faucet.egcscan.com"],
+  "infoURL": "https://egcscan.com"
+}, {
   "name": "LaChain",
   "chainId": 274,
   "shortName": "lachain",
@@ -4731,7 +4744,7 @@
   "faucets": ["https://faucet.ctexscan.com"],
   "infoURL": "https://ctextoken.io"
 }, {
-  "name": "ChainX-EVM",
+  "name": "BEVM",
   "chainId": 1501,
   "shortName": "chainx",
   "networkId": 1501,
@@ -5758,10 +5771,23 @@
   "faucets": ["https://airdrop.somanetwork.io"],
   "infoURL": "https://somanetwork.io"
 }, {
-  "name": "Kroma Sepolia",
+  "name": "(deprecated) Kroma Sepolia",
   "chainId": 2357,
-  "shortName": "kroma-sepolia",
+  "shortName": "deprecated-kroma-sepolia",
   "networkId": 2357,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.sepolia-deprecated.kroma.network"],
+  "faucets": [],
+  "infoURL": "https://kroma.network"
+}, {
+  "name": "Kroma Sepolia",
+  "chainId": 2358,
+  "shortName": "kroma-sepolia",
+  "networkId": 2358,
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -6223,6 +6249,19 @@
     "decimals": 18
   },
   "rpc": ["https://testnet-rpc.senjepowersscan.com"],
+  "faucets": ["https://faucet.senjepowersscan.com"],
+  "infoURL": "https://senjepowersscan.com"
+}, {
+  "name": "SenjePowers Mainnet",
+  "chainId": 3699,
+  "shortName": "SPCm",
+  "networkId": 3699,
+  "nativeCurrency": {
+    "name": "SenjePowers",
+    "symbol": "SPC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.senjepowersscan.com"],
   "faucets": ["https://faucet.senjepowersscan.com"],
   "infoURL": "https://senjepowersscan.com"
 }, {
@@ -7058,6 +7097,19 @@
   "faucets": [],
   "infoURL": "https://planq.network"
 }, {
+  "name": "Bitrock Mainnet",
+  "chainId": 7171,
+  "shortName": "bitrock",
+  "networkId": 7171,
+  "nativeCurrency": {
+    "name": "BITROCK",
+    "symbol": "BROCK",
+    "decimals": 18
+  },
+  "rpc": ["https://connect.bit-rock.io"],
+  "faucets": [],
+  "infoURL": "https://bit-rock.io"
+}, {
   "name": "KLYNTAR",
   "chainId": 7331,
   "shortName": "kly",
@@ -7187,6 +7239,19 @@
   "rpc": ["https://testnet-archive.plexnode.wtf"],
   "faucets": [],
   "infoURL": "https://canto.io"
+}, {
+  "name": "Bitrock Testnet",
+  "chainId": 7771,
+  "shortName": "tbitrock",
+  "networkId": 7771,
+  "nativeCurrency": {
+    "name": "BITROCK",
+    "symbol": "BROCK",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.bit-rock.io"],
+  "faucets": ["https://faucet.bit-rock.io"],
+  "infoURL": "https://bit-rock.io"
 }, {
   "name": "Rise of the Warbots Testnet",
   "chainId": 7777,
@@ -7483,7 +7548,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://developer-access-mainnet.base.org/"],
   "faucets": [],
   "infoURL": "https://base.org"
 }, {
@@ -8670,6 +8735,19 @@
   "faucets": [],
   "infoURL": "https://maplabs.io"
 }, {
+  "name": "Antofy Testnet",
+  "chainId": 23006,
+  "shortName": "ABNt",
+  "networkId": 23006,
+  "nativeCurrency": {
+    "name": "Antofy",
+    "symbol": "ABN",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.antofy.io"],
+  "faucets": ["https://faucet.antofy.io"],
+  "infoURL": "https://antofy.io"
+}, {
   "name": "Opside Testnet",
   "chainId": 23118,
   "shortName": "opside",
@@ -9346,6 +9424,19 @@
   "faucets": ["https://testedge2.haqq.network"],
   "infoURL": "https://islamiccoin.net"
 }, {
+  "name": "Toronet Testnet",
+  "chainId": 54321,
+  "shortName": "ToronetTestnet",
+  "networkId": 54321,
+  "nativeCurrency": {
+    "name": "Toro",
+    "symbol": "TORO",
+    "decimals": 18
+  },
+  "rpc": ["http://testnet.toronet.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://toronet.org"
+}, {
   "name": "Titan",
   "chainId": 55004,
   "shortName": "teth",
@@ -9787,6 +9878,19 @@
   "rpc": ["https://mainnet-rpc.vention.network"],
   "faucets": ["https://faucet.vention.network"],
   "infoURL": "https://ventionscan.io"
+}, {
+  "name": "Toronet Mainnet",
+  "chainId": 77777,
+  "shortName": "Toronet",
+  "networkId": 77777,
+  "nativeCurrency": {
+    "name": "Toro",
+    "symbol": "TORO",
+    "decimals": 18
+  },
+  "rpc": ["http://toronet.org/rpc"],
+  "faucets": [],
+  "infoURL": "https://toronet.org"
 }, {
   "name": "Firenze test network",
   "chainId": 78110,
@@ -10762,6 +10866,19 @@
   "rpc": ["https://gzn-test.linksme.info"],
   "faucets": [],
   "infoURL": "https://token.gearzero.ca/testnet"
+}, {
+  "name": "EgonCoin Testnet",
+  "chainId": 271271,
+  "shortName": "EGONt",
+  "networkId": 271271,
+  "nativeCurrency": {
+    "name": "EgonCoin",
+    "symbol": "EGON",
+    "decimals": 18
+  },
+  "rpc": ["https://rpctest.egcscan.com"],
+  "faucets": ["https://faucet.egcscan.com"],
+  "infoURL": "https://egcscan.com"
 }, {
   "name": "Social Smart Chain Mainnet",
   "chainId": 281121,

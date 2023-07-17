@@ -3361,6 +3361,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "EgonCoin Mainnet",
+  "chain": "EGON",
+  "icon": "egonicon",
+  "rpc": ["https://rpc.egcscan.com"],
+  "faucets": ["https://faucet.egcscan.com"],
+  "nativeCurrency": {
+    "name": "EgonCoin",
+    "symbol": "EGON",
+    "decimals": 18
+  },
+  "infoURL": "https://egcscan.com",
+  "shortName": "EGONm",
+  "chainId": 271,
+  "networkId": 271,
+  "explorers": [{
+    "name": "EgonCoin Mainnet",
+    "url": "https://egcscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "LaChain",
   "chain": "LaChain",
   "icon": "LaChain",
@@ -7063,7 +7083,7 @@
     "standard": "none"
   }]
 }, {
-  "name": "ChainX-EVM",
+  "name": "BEVM",
   "chain": "ChainX",
   "rpc": ["https://mainnet.chainx.org/rpc", "https://mainnet2.chainx.org/rpc"],
   "faucets": [],
@@ -7077,7 +7097,7 @@
   "chainId": 1501,
   "networkId": 1501,
   "explorers": [{
-    "name": "chainx-evm scan",
+    "name": "bevm scan",
     "url": "https://evm.chainx.org",
     "standard": "none"
   }]
@@ -8648,12 +8668,42 @@
     "standard": "none"
   }]
 }, {
-  "name": "Kroma Sepolia",
-  "title": "Kroma Testnet Sepolia",
+  "name": "(deprecated) Kroma Sepolia",
+  "title": "(deprecated) Kroma Testnet Sepolia",
   "chainId": 2357,
-  "shortName": "kroma-sepolia",
+  "shortName": "deprecated-kroma-sepolia",
   "chain": "ETH",
   "networkId": 2357,
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://api.sepolia-deprecated.kroma.network"],
+  "faucets": [],
+  "infoURL": "https://kroma.network",
+  "icon": "kroma",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blockscout.sepolia-deprecated.kroma.network",
+    "icon": "kroma",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://kroma.network/bridge"
+    }]
+  },
+  "status": "deprecated"
+}, {
+  "name": "Kroma Sepolia",
+  "title": "Kroma Testnet Sepolia",
+  "chainId": 2358,
+  "shortName": "kroma-sepolia",
+  "chain": "ETH",
+  "networkId": 2358,
   "nativeCurrency": {
     "name": "Sepolia Ether",
     "symbol": "ETH",
@@ -9370,6 +9420,26 @@
   "explorers": [{
     "name": "SenjePowers",
     "url": "https://testnet.senjepowersscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "SenjePowers Mainnet",
+  "chain": "SPC",
+  "icon": "SenjePowers",
+  "rpc": ["https://rpc.senjepowersscan.com"],
+  "faucets": ["https://faucet.senjepowersscan.com"],
+  "nativeCurrency": {
+    "name": "SenjePowers",
+    "symbol": "SPC",
+    "decimals": 18
+  },
+  "infoURL": "https://senjepowersscan.com",
+  "shortName": "SPCm",
+  "chainId": 3699,
+  "networkId": 3699,
+  "explorers": [{
+    "name": "SenjePowers",
+    "url": "https://senjepowersscan.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -10719,6 +10789,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Bitrock Mainnet",
+  "chain": "Bitrock",
+  "icon": "bitrock",
+  "rpc": ["https://connect.bit-rock.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "BITROCK",
+    "symbol": "BROCK",
+    "decimals": 18
+  },
+  "infoURL": "https://bit-rock.io",
+  "shortName": "bitrock",
+  "chainId": 7171,
+  "networkId": 7171,
+  "explorers": [{
+    "name": "Bitrock Explorer",
+    "url": "https://scan.bit-rock.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "KLYNTAR",
   "chain": "KLY",
   "rpc": ["https://evm.klyntar.org/kly_evm_rpc", "https://evm.klyntarscan.org/kly_evm_rpc"],
@@ -10925,6 +11015,26 @@
     "name": "Canto Testnet EVM Explorer (Blockscout)",
     "url": "https://testnet.tuber.build",
     "standard": "none"
+  }]
+}, {
+  "name": "Bitrock Testnet",
+  "chain": "Bitrock",
+  "icon": "bitrock",
+  "rpc": ["https://testnet.bit-rock.io"],
+  "faucets": ["https://faucet.bit-rock.io"],
+  "nativeCurrency": {
+    "name": "BITROCK",
+    "symbol": "BROCK",
+    "decimals": 18
+  },
+  "infoURL": "https://bit-rock.io",
+  "shortName": "tbitrock",
+  "chainId": 7771,
+  "networkId": 7771,
+  "explorers": [{
+    "name": "Bitrock Testnet Explorer",
+    "url": "https://testnetscan.bit-rock.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Rise of the Warbots Testnet",
@@ -11339,7 +11449,7 @@
 }, {
   "name": "Base",
   "chain": "ETH",
-  "rpc": [],
+  "rpc": ["https://developer-access-mainnet.base.org/"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
@@ -11350,7 +11460,17 @@
   "shortName": "base",
   "chainId": 8453,
   "networkId": 8453,
-  "status": "incubating"
+  "icon": "base",
+  "explorers": [{
+    "name": "basescan",
+    "url": "https://basescan.org",
+    "standard": "none"
+  }, {
+    "name": "basescout",
+    "url": "https://base.blockscout.com",
+    "standard": "none"
+  }],
+  "status": "active"
 }, {
   "name": "Toki Network",
   "chain": "TOKI",
@@ -13156,6 +13276,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Antofy Testnet",
+  "chain": "ABN",
+  "icon": "antofy",
+  "rpc": ["https://testnet-rpc.antofy.io"],
+  "faucets": ["https://faucet.antofy.io"],
+  "nativeCurrency": {
+    "name": "Antofy",
+    "symbol": "ABN",
+    "decimals": 18
+  },
+  "infoURL": "https://antofy.io",
+  "shortName": "ABNt",
+  "chainId": 23006,
+  "networkId": 23006,
+  "explorers": [{
+    "name": "Antofy Testnet",
+    "url": "https://test.antofyscan.com",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Opside Testnet",
   "chain": "Opside",
   "rpc": ["https://testrpc.opside.network"],
@@ -14220,6 +14360,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Toronet Testnet",
+  "chain": "Toronet",
+  "icon": "toronet",
+  "rpc": ["http://testnet.toronet.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Toro",
+    "symbol": "TORO",
+    "decimals": 18
+  },
+  "infoURL": "https://toronet.org",
+  "shortName": "ToronetTestnet",
+  "chainId": 54321,
+  "networkId": 54321,
+  "ens": {
+    "registry": "0x059C474f26D65B0458F9da10A649a7322aB02C09"
+  },
+  "explorers": [{
+    "name": "toronet_explorer",
+    "url": "https://testnet.toronet.org",
+    "standard": "none"
+  }]
+}, {
   "name": "Titan",
   "chain": "ETH",
   "rpc": ["https://rpc.titan.tokamak.network", "wss://rpc.titan.tokamak.network/ws"],
@@ -14903,6 +15066,29 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Toronet Mainnet",
+  "chain": "Toronet",
+  "icon": "toronet",
+  "rpc": ["http://toronet.org/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Toro",
+    "symbol": "TORO",
+    "decimals": 18
+  },
+  "infoURL": "https://toronet.org",
+  "shortName": "Toronet",
+  "chainId": 77777,
+  "networkId": 77777,
+  "ens": {
+    "registry": "0x1f45a71f4aAD769E27c969c4359E0e250C67165c"
+  },
+  "explorers": [{
+    "name": "toronet_explorer",
+    "url": "https://toronet.org/explorer",
+    "standard": "none"
+  }]
+}, {
   "name": "Firenze test network",
   "chain": "ETH",
   "rpc": ["https://ethnode.primusmoney.com/firenze"],
@@ -15136,6 +15322,7 @@
   "shortName": "basegor",
   "chainId": 84531,
   "networkId": 84531,
+  "icon": "baseTestnet",
   "explorers": [{
     "name": "basescan",
     "url": "https://goerli.basescan.org",
@@ -16389,6 +16576,26 @@
   "networkId": 266256,
   "slip44": 266256,
   "explorers": []
+}, {
+  "name": "EgonCoin Testnet",
+  "chain": "EGON",
+  "icon": "egonicon",
+  "rpc": ["https://rpctest.egcscan.com"],
+  "faucets": ["https://faucet.egcscan.com"],
+  "nativeCurrency": {
+    "name": "EgonCoin",
+    "symbol": "EGON",
+    "decimals": 18
+  },
+  "infoURL": "https://egcscan.com",
+  "shortName": "EGONt",
+  "chainId": 271271,
+  "networkId": 271271,
+  "explorers": [{
+    "name": "EgonCoin Testnet",
+    "url": "https://testnet.egcscan.com",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Social Smart Chain Mainnet",
   "chain": "SoChain",

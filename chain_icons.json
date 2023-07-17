@@ -495,6 +495,14 @@
     "format": "png"
   }]
 }, {
+  "name": "antofy",
+  "icons": [{
+    "url": "ipfs://QmdTfku81ohnG9ECU1Xswmeumt678cBhwHWuFYZ7i1Qsto",
+    "width": 400,
+    "height": 400,
+    "format": "png"
+  }]
+}, {
   "name": "ella",
   "icons": [{
     "url": "ipfs://QmVkAhSaHhH3wKoLT56Aq8dNyEH4RySPEpqPcLwsptGBDm",
@@ -879,6 +887,14 @@
     "format": "svg"
   }]
 }, {
+  "name": "baseTestnet",
+  "icons": [{
+    "url": "ipfs://QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv",
+    "width": 1200,
+    "height": 1200,
+    "format": "png"
+  }]
+}, {
   "name": "tcg_verse",
   "icons": [{
     "url": "ipfs://bafkreidg4wpewve5mdxrofneqblydkrjl3oevtgpdf3fk3z3vjqam6ocoe",
@@ -1039,6 +1055,14 @@
     "format": "png"
   }]
 }, {
+  "name": "toronet",
+  "icons": [{
+    "url": "ipfs://QmciSvgLatP6jhgdazuiyD3fSrhipfAN7wC943v1qxcrpv",
+    "width": 846,
+    "height": 733,
+    "format": "png"
+  }]
+}, {
   "name": "oasis",
   "icons": [{
     "url": "ipfs://bafkreiespupb52akiwrexxg7g72mh7m7h7lum5hmqijmpdh3kmuunzclha",
@@ -1172,6 +1196,14 @@
     "url": "ipfs://QmZ5gFWUxLFqqT3DkefYfRsVksMwMTc5VvBjkbHpeFMsNe",
     "width": 1001,
     "height": 1629,
+    "format": "png"
+  }]
+}, {
+  "name": "egonicon",
+  "icons": [{
+    "url": "ipfs://QmNZiMmzMQYjyGtNSghtzLg4UooYhDgMQsa677DAP5KsBg",
+    "width": 512,
+    "height": 512,
     "format": "png"
   }]
 }, {
@@ -1348,6 +1380,14 @@
     "url": "ipfs://QmNy5d5knHVjJJS9g4kLsh9i73RTjckpKL6KZvRk6ptbhf",
     "width": 591,
     "height": 591,
+    "format": "svg"
+  }]
+}, {
+  "name": "bitrock",
+  "icons": [{
+    "url": "ipfs://QmfXZCAh3HWS2bJroUStN9TieL4QA9QArMotie3X4pwBfj",
+    "width": 72,
+    "height": 72,
     "format": "svg"
   }]
 }, {
@@ -1556,6 +1596,14 @@
     "url": "ipfs://QmfFK6B4MFLrpSS46aLf7hjpt28poHFeTGEKEuH248Tbyj",
     "width": 200,
     "height": 200,
+    "format": "png"
+  }]
+}, {
+  "name": "base",
+  "icons": [{
+    "url": "ipfs://QmaxRoHpxZd8PqccAynherrMznMufG6sdmHZLihkECXmZv",
+    "width": 1200,
+    "height": 1200,
     "format": "png"
   }]
 }, {
