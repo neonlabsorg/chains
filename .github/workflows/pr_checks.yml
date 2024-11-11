@@ -35,7 +35,7 @@ jobs:
         files: _data/iconsDownload/*
         base_sha: ${{ steps.last_successful_commit_push.outputs.base }}
 
-    - run: sudo apt-get -y install jq curl exiftool
+    - run: sudo apt-get -y install jq curl libimage-exiftool-perl
 
     - name: Verify the changed icons
       if: steps.changed-icons.outputs.any_changed == 'true'
