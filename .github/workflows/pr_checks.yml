@@ -12,6 +12,8 @@ jobs:
         fetch-depth: 0
 
     - uses: actions/setup-node@v4
+      with:
+          node-version: 18.x
 
     - uses: nrwl/nx-set-shas@v3
       id: last_successful_commit_push

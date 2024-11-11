@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: 'zulu' # Required
-          java-version: '21'
+          java-version: '17'
 
       - name: Get changed files
         id: changed-files
