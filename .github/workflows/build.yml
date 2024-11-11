@@ -11,6 +11,7 @@ jobs:
       
       - uses: actions/setup-java@v4
         with:
+          distribution: 'zulu' # Required
           java-version: '21'
 
       - name: Get changed files
